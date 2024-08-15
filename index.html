@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger-king</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img src="./logo.png" alt="" id="logo">
+        <img src="https://files.chowdeck.com/images/svkg1ubbzmt3lbhec3ud/1659020149.png" alt="">
+    </header>
+    <main>
+        <div id="container">
+            <div id="options">
+                <label for="Burger">
+                    <input type="checkbox" id="Burger" name="food" value="Burger" onclick="this.disabled = true;">
+                    Burger
+                </label>
+                <label for="Fries">
+                    <input type="checkbox" id="Fries" name="food" value="Fries" onclick="this.disabled = true;">
+                    Fries
+                </label>
+                <label for="Drinks">
+                    <input type="checkbox" id="Drinks" name="food" value="Drinks" onclick="this.disabled = true;">
+                    Drinks
+                </label><br><br>
+                <button id="change">Re-Select</button>
+                <button id="order">Order</button>
+            </div><br>
+            <p id="orderNo">Order no:</p>
+            <div id="dynamic">
+
+            </div>
+            
+        </div>
+        <p>*** after ordering it will automatically get refreshed in 5 sec ***</p>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

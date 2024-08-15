@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+header{
+    width: 100vw;
+    height: 20vh;
+    background-color: rgba(94, 32, 16, 0.916);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logo{
+    height: 15vh;
+    width: 8vw;
+}
+header img{
+    width: 32%;
+    height: 20vh;
+    margin-left: 100px;
+}
+main{
+    background-color: rgba(232, 216, 74, 0.91);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    background-color: whitesmoke;
+    height: 75%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+}
+#options{
+    color: rgba(94, 32, 16, 0.916);
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+}
+#order{
+    background-color: rgba(94, 32, 16, 0.916);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 3px;
+    border: 0;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+}
+#order:hover{
+    background-color: rgba(153, 55, 30, 0.916);
+    cursor: pointer;
+}
+#order:active{
+    transform:translateY(3px);
+}
+
+#change{
+    background-color: rgba(94, 32, 16, 0.916);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 3px;
+    border: 0;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+}
+#change:hover{
+    background-color: rgba(153, 55, 30, 0.916);
+    cursor: pointer;
+}
+#change:active{
+    transform:translateY(3px);
+}
+p{
+    font-size: large;
+    font-weight: 600;
+    color: rgba(94, 32, 16, 0.916);
+}
+
+#dynamic{
+    height: 300px;
+    width: 330px;
+    /* background-color: gray; */
+    margin-top: 20px;
+}
